@@ -31,6 +31,7 @@ def gen_code():
         os.mkdir("{}/project/database/{}".format(path, folder))
     os.chdir("{}/project".format(path))
     fIndex = open('index.js', 'a')
+    
     info = {
         "name": "",
         "version": "1.0.0",
